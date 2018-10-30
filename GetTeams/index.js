@@ -1,5 +1,5 @@
 module.exports = async function(context, req) {
   context.res = {
-    body: 'Hello ' + req.query.name
+    body: 'Happy ' + req.query.name
   };
 };
